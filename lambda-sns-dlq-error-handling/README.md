@@ -16,7 +16,7 @@
 
 ### Deploy
 - `serverless deploy`
-
+- To deploy a function without touching the stack, e.g. `serverless deploy function --function error`
 
 ### Trigger API Gateway
 - `curl -H "Content-Type: application/json" \
