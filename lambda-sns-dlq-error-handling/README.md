@@ -6,10 +6,7 @@
 - `npm i -g serverless`
 
 ### Setup  IAM credential
-- `serverless config credentials \ 
-    --provider aws \ 
-    --key xxxxxxxxxxxxxx \ 
-    --secret xxxxxxxxxxxxxx`
+- `serverless config credentials --provider aws --key xxxxxxxxxxxxxx --secret xxxxxxxxxxxxxx`
     
 ### Create a service
 - `serverless create --template aws-nodejs --path lambda-sns-dlq-error-handling`
